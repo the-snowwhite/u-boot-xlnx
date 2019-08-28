@@ -1063,7 +1063,7 @@
 			interrupts = <0 113 1>;
 			reg = <0x0 0xfd4d0000 0x0 0x1000>;
 			timeout-sec = <60>;
-			reset-on-timeout;
+//			reset-on-timeout;
 		};
 
 		lpd_watchdog: watchdog@ff150000 {
